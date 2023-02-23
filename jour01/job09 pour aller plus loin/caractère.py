@@ -1,6 +1,6 @@
-test = "chercher une lettre dans une chaine de caractère"
-#chercher la lettre "e" dans une chaine de caractère 
-if "e" in test:
-    print(il y a un (e) dans la chaine de caratère)
+chaine = input("Entrez une chaine de caracteres : ")
+
+if "e" in chaine:
+    print("La chaine contient le caractere 'e'")
 else:
-    print (il n y a pas de (e) dans la chaine de caractère)
+    print("La chaine ne contient pas le caractere 'e'")
