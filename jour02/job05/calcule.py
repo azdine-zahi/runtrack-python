@@ -1,17 +1,17 @@
 def calcule (num1, operator, num2)
-    if operator == "+"
+    if operator == "+":
         print(num1+num2)
 
-    elif operator == "-"
+    elif operator == "-":
         print(num1-num2)
 
-    elif operator == "*"
+    elif operator == "*":
         print(num1*num2)
     
-    elif operator == "/"
+    elif operator == "/":
         print(num1/num2)
     
-    elif operator == "%"
+    elif operator == "%":
         print(num1%num2)
     
 
